@@ -51,7 +51,7 @@
         executable: pip3.9
       loop:
       - crytography
-      - Py MySQL
+      - PyMySQL
     
     - name: import mysql data
       community.mysql.mysql_db:
